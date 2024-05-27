@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<instance format="Talos">
+    <values>
+        <valmatrix id="transitions">
+        <data>1 1 1 1 1 0 1 0</data>
+        <data>1 0 1 0 1 0 1 1</data>
+        
+
+        <data>1 0 1 1 0 0 1 0</data>
+        
+        <data>1 0 1 1 1 0 0 0</data>
+        
+        <data>0 0 1 0 0 1 1 1</data>
+        <data>0 1 1 1 0 1 0 0</data>
+
+        <data>1 0 0 0 1 1 0 1</data>
+        <data>1 1 0 1 0 1 0 0</data>
+
+        <data>0 1 0 0 0 1 0 1</data>
+        <data>0 1 0 1 0 0 0 0</data>
+        
+        </valmatrix>
+    </values>
+
+    <variables>
+        <var id="iL">1</var>
+        <var id="iC">1</var>
+        <var id="iS">1</var>
+        <var id="iB">1</var>
+        <var id="fL">0</var>
+        <var id="fC">0</var>
+        <var id="fS">0</var>
+        <var id="fB">0</var>
+
+        <var id="L" type="int extensional">0 1</var>
+        <var id="C" type="int extensional">0 1</var>
+        <var id="S" type="int extensional">0 1</var>
+        <var id="B" type="int extensional">0 1</var>
+    </variables>
+
+    <variables>
+        <vararray id="state">L C S B</vararray>
+        <vararray id="initial">iL iC iS iB</vararray>
+        <vararray id="final">fL fC fS fB</vararray>
+    </variables>
+</instance>
